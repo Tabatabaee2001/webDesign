@@ -1,0 +1,105 @@
+* {
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: rgb(252, 216, 252);
+    text-decoration: none;
+}
+
+div#header img {
+    width: 10%;
+
+}
+
+div#slider img {
+
+    width: 100%;
+}
+
+div#aboutus {
+    padding: 15px;
+    color: black;
+}
+
+#aboutus h2 {
+    padding: 5px;
+}
+
+#aboutus p {
+    text-align: justify;
+}
+
+h2 {
+    color: black;
+    padding: 15px;
+}
+
+div#products {
+    color: black;
+    padding: 10px;
+    display: flex;
+   
+}
+
+.productitem h3 {
+    height: 35px;
+    background-color: rgb(197, 152, 238);
+    padding-left: 5px;
+    padding: 5px;
+    color: black;
+}
+
+.productitem img {
+    width: 40%;
+
+}
+
+.productitem p {
+    background-color: rgb(197, 152, 238);
+    padding-left: 5px;
+    padding: 5px;
+    color: black;
+}
+
+div#products div.productitem {
+    background-color: rgb(197, 152, 238);
+    padding-left: 5px;
+    margin: 5px;
+    width: 35%;
+    text-align: center;
+
+}
+
+div.productitem a.shop {
+
+    background-color: rgb(255, 170, 255);
+    color: azure;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 4px;
+    transition: all 1s;
+    
+
+}
+
+div.productitem a.shop:hover {
+    box-shadow: 5px 5px 5px #60594c;
+    ;
+    background-color: #ffaaff
+}
+
+.customerpov {
+    display: flex;
+}
+
+.customerpov p {
+    padding: 15px;
+    margin: 20px;
+}
+
+div#customers img {
+    width: 8%;
+    border-radius: 45%;
+
+}

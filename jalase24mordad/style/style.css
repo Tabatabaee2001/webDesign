@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main {
+    border: .5px solid black;
+    width: 50%;
+    height: 320px;
+    margin: 25px auto;
+}
+
+main h1 {
+    text-align: center;
+    padding: 13px;
+}
+
+form {
+    padding: 27px;
+}
+
+input[type="text"],
+input[type="Password"],
+input[type="conferm Password"] {
+    width: 100%;
+    transition: all 1s;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: rgb(82, 134, 135);
+    color: rgb(244, 240, 240);
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 5px 5px 6px rgb(68, 112, 113);
+    cursor: pointer;
+}
+
+input[type="text"]:hover {
+    box-shadow: 5px 5px 6px rgb(179, 179, 179)
+}
+input[type="Password"]:hover {
+    box-shadow: 5px 5px 6px rgb(179, 179, 179)
+}
+input[type="conferm Password"]:hover {
+    box-shadow: 5px 5px 6px rgb(179, 179, 179)
+}
