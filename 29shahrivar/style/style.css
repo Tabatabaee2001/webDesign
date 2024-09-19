@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(20, 32, 29);
+  font-size: 16px;
+  direction: rtl;
+  color: #d7e7a9;
+  font-family: Vazirmatn FD;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+div {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+div.secendery {
+  border: 2px solid rgb(0, 52, 249);
+}/*# sourceMappingURL=style.css.map */
