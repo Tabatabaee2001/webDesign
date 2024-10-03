@@ -1,0 +1,13 @@
+@mixin header{
+    background-color: $bg-color;
+    text-align: $text-align;
+    padding: $padding-header;
+    background-image: $bg-img;
+    
+}
+@mixin bg1{
+    float: $float-left;
+}
+@mixin bg2{
+    float: $float-right;
+}
