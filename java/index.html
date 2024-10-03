@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <button type="button" id="myBtn" onclick="myFunction()">Change the width of this button</button>
+    <p id="demo">زندگے واقعا بسیار ساده است !
+        از هر دست بدهیم ،
+        از همان دست می‌گیریم !
+        هرطوری ڪه درباره‌ے خود بیندیشیم ،
+        برایمان به واقعیت مبدل می‌شود .
+        من معتقدم ڪه هرڪسے از جمله من ،
+        مسئول همه اتفاقات خوب
+        و یا بد در زندگیش است …!</p>
+        <button type="button" id="myBtn" onclick="mynama()">Change the width of this button</button>
+    <p id="nama">
+        مانند یک قطب‌ نماست
+
+        به انسان کمک می‌کند تا در هر شرایطی
+
+        مسیر درست را پیدا کند
+    </p>
+    <script>
+        let para = document.getElementById("demo");
+        // let body= document.getElementsByTagName("body");
+        function myFunction() {
+            para.style.width = "300px";
+            para.style.height = "500px";
+            para.style.backgroundColor = "#f2f2f2";
+            para.style.textAlign = "justify";
+            para.style.color = "red";
+            //   body.style.backgroundColor="black";
+
+
+        }
+        let nama = document.getElementById("nama");
+        function mynama() {
+            nama.style.width = "300px";
+            nama.style.height = "500px";
+            nama.style.backgroundColor = "green";
+            nama.style.border = "1px solid red";
+
+        }
+    </script>
+
+</body>
+
+</html>
